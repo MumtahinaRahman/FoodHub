@@ -23,11 +23,11 @@ body{
     box-shadow: 0 3px 6px var(--shadow-color); // x y blur color
     background-color: var(--background-light);
     color: var(--text-color);
-    // display: flex;
-    // justify-content: space-between;
-    // align-items: center;
+    display: flex;
+    justify-content: space-between; //creates gap between logo and nav-links
+    align-items: center;
 }
 
 .container{
-    // padding-inline: 15vw;
+    // padding-inline: 15vw; //gives padding on left and right side
 }
